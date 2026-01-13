@@ -1,0 +1,39 @@
+
+> my-v0-project@0.1.0 dev /Users/tanu/Documents/MediFlow/hospital-dashboard
+> next dev
+
+ ⚠ Warning: Next.js inferred your workspace root, but it may not be correct.
+ We detected multiple lockfiles and selected the directory of /Users/tanu/package-lock.json as the root directory.
+ To silence this warning, set `turbopack.root` in your Next.js config, or consider removing one of the lockfiles if it's not needed.
+   See https://nextjs.org/docs/app/api-reference/config/next-config-js/turbopack#root-directory for more information.
+ Detected additional lockfiles: 
+   * /Users/tanu/Documents/MediFlow/hospital-dashboard/pnpm-lock.yaml
+
+   ▲ Next.js 16.0.10 (Turbopack)
+   - Local:         http://localhost:3000
+   - Network:       http://192.168.1.3:3000
+   - Environments: .env.local
+
+ ✓ Starting...
+ ✓ Ready in 708ms
+ GET / 200 in 2.3s (compile: 2.1s, render: 190ms)
+supabase: urlPresent= true anonKeyPresent= true serviceRolePresent= true
+ POST /api/patients 500 in 1010ms (compile: 348ms, render: 663ms)
+ POST /api/patients 201 in 825ms (compile: 37ms, render: 788ms)
+ POST /api/patients 201 in 668ms (compile: 11ms, render: 656ms)
+ GET /api/patients 200 in 128ms (compile: 4ms, render: 124ms)
+ ✓ Compiled in 364ms
+ GET /api/patients 200 in 682ms (compile: 7ms, render: 674ms)
+ ✓ Compiled in 229ms
+ GET /api/patients 200 in 838ms (compile: 28ms, render: 810ms)
+ GET /api/patients 200 in 43ms (compile: 1936µs, render: 41ms)
+ GET /api/patients 200 in 1356ms (compile: 30ms, render: 1326ms)
+ GET /api/patients 200 in 80ms (compile: 3ms, render: 78ms)
+ GET /api/patients 200 in 1280ms (compile: 56ms, render: 1224ms)
+ GET /api/patients 200 in 66ms (compile: 3ms, render: 64ms)
+ GET /api/patients 200 in 295ms (compile: 3ms, render: 292ms)
+ GET /api/patients 200 in 54ms (compile: 2ms, render: 52ms)
+ GET /api/patients 200 in 982ms (compile: 27ms, render: 955ms)
+ GET /api/patients 200 in 51ms (compile: 1443µs, render: 49ms)
+ GET /api/patients 200 in 97ms (compile: 7ms, render: 90ms)
+ GET /api/patients 200 in 49ms (compile: 2ms, render: 46ms)
