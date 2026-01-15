@@ -87,7 +87,7 @@ export default function BedStatusOverview() {
           <CardContent className="space-y-2">
             <div className="flex justify-between text-sm">
               <span className="text-muted-foreground">Occupied:</span>
-              <span className="font-medium text-foreground">15/20</span>
+              <span className="font-medium text-foreground">35/50</span>
             </div>
             <div className="w-full bg-muted rounded-full h-1.5">
               <div className="bg-accent h-1.5 rounded-full" style={{ width: "65%" }} />
